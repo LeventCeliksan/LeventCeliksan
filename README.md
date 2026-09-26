@@ -24,6 +24,13 @@ Principal AI Architect and hands-on technical founder with 19+ years of backend 
 - **[Aesthetic Detector — BEAUTY (Android)](https://github.com/LeventCeliksan/aesthetic-detector)** — CLIP ViT-B/16 fine-tuned on 1,000+ portraits, ONNX on-device inference, Kotlin.
 - **AI Advertising Agency Automation** — 7-agent orchestrator; Python, FastAPI, Pydantic; multi-LLM routing (Gemini, Ollama, OpenRouter).
 
+### Open-source tools (tested, installable)
+Small standalone pieces of the systems above — each with tests and a one-line `pip install`.
+- **[ots-anchor](https://github.com/LeventCeliksan/ots-anchor)** — timestamp files on Bitcoin with no fees (OpenTimestamps) and verify against real block headers.
+- **[multi-llm-router](https://github.com/LeventCeliksan/multi-llm-router)** — task-based LLM routing across Gemini, OpenRouter and local Ollama with automatic failover on quota limits and outages.
+- **[mrz-check](https://github.com/LeventCeliksan/mrz-check)** — offline ICAO 9303 passport/ID MRZ parser and check-digit validator (KYC).
+- **[phash-match](https://github.com/LeventCeliksan/phash-match)** — perceptual hashing to find resized, recompressed or recolored copies of images.
+
 ### Earlier experience
 Principal Engineer — BUBU (2018–2023) · Lead Software Engineer — Artworks Lab AB (2015–2018) · Senior Software Engineer — Yellow Pages / DataWorks (2012–2015) · Software Engineer — Jolly Tur (2008–2011) · Junior Software Engineer — REKLAMARKA (2006–2008)
 
