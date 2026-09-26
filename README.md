@@ -25,11 +25,23 @@ Principal AI Architect and hands-on technical founder with 19+ years of backend 
 - **AI Advertising Agency Automation**: 7-agent orchestrator; Python, FastAPI, Pydantic; multi-LLM routing (Gemini, Ollama, OpenRouter).
 
 ### Open-source tools (tested, installable)
-Small standalone pieces of the systems above, each with tests and a one-line `pip install`.
-- **[ots-anchor](https://github.com/LeventCeliksan/ots-anchor)**: timestamp files on Bitcoin with no fees (OpenTimestamps) and verify against real block headers.
+Standalone, from-scratch tools that demonstrate the ideas behind my work, each with a test suite and a one-line install. They contain no Sealify or client code.
+
+**Agentic AI & LLMs**
+- **[local-dev-crew](https://github.com/LeventCeliksan/local-dev-crew)**: four CrewAI agents on a local Ollama model plan, write and syntax-check small Python projects inside a sandboxed folder.
 - **[multi-llm-router](https://github.com/LeventCeliksan/multi-llm-router)**: task-based LLM routing across Gemini, OpenRouter and local Ollama with automatic failover on quota limits and outages.
-- **[mrz-check](https://github.com/LeventCeliksan/mrz-check)**: offline ICAO 9303 passport/ID MRZ parser and check-digit validator (KYC).
+- **[local-voice-assistant](https://github.com/LeventCeliksan/local-voice-assistant)**: talk to a local model, faster-whisper speech recognition, Ollama replies, per-user memory.
+
+**Computer vision & media**
+- **[scene-matcher](https://github.com/LeventCeliksan/scene-matcher)**: find photos of the same place or scene by ranking a folder on DINOv2 embedding similarity.
 - **[phash-match](https://github.com/LeventCeliksan/phash-match)**: perceptual hashing to find resized, recompressed or recolored copies of images.
+- **[ai-video-detector](https://github.com/LeventCeliksan/ai-video-detector)**: experimental 8-layer heuristic detector for AI-generated video.
+- **[prompt-to-clip](https://github.com/LeventCeliksan/prompt-to-clip)**: generate an image with SDXL, refine it with a fixed seed, and animate it into a short clip.
+
+**Content protection, identity & verification**
+- **[ots-anchor](https://github.com/LeventCeliksan/ots-anchor)**: timestamp files on Bitcoin with no fees (OpenTimestamps) and verify against real block headers.
+- **[lsb-watermark](https://github.com/LeventCeliksan/lsb-watermark)**: invisible LSB watermark IDs for images, with a checksum and folder/web search for marked copies.
+- **[mrz-check](https://github.com/LeventCeliksan/mrz-check)**: offline ICAO 9303 passport/ID MRZ parser and check-digit validator (KYC).
 
 ### Earlier experience
 Principal Engineer, BUBU (2018–2023) · Lead Software Engineer, Artworks Lab AB (2015–2018) · Senior Software Engineer, Yellow Pages / DataWorks (2012–2015) · Software Engineer, Jolly Tur (2008–2011) · Junior Software Engineer, REKLAMARKA (2006–2008)
