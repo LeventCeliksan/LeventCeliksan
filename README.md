@@ -17,8 +17,10 @@ Senior AI & Software Engineer and hands-on technical founder with 19+ years of b
 - Calibrated hybrid image/face matching (color/composition signals, InsightFace/ArcFace face gate, EfficientNet-B7): accuracy from ~60% to ~97%, on a queue-based, multi-instance architecture.
 - Multi-engine reverse image/video search (Google Lens, Google Reverse Image, Yandex, Bing) with automatic failover; median 2.5 minutes to find copies, including cropped, recolored or re-titled versions.
 - LangGraph research agent with local LLMs; autonomous Instagram/TikTok/YouTube monitors.
-- Inventor on six US provisional patent applications (Patent Pending).
 - Demo: https://www.youtube.com/watch?v=LIoTl1nJU5c · Intro: https://www.youtube.com/watch?v=Bh7kB-UIJhs
+
+### Patent applications
+Six US provisional patent applications (USPTO, Nov–Dec 2025, Patent Pending), including content tracking and protection (63/923,341); real-time deepfake detection (63/923,358); multimodal novelty assessment (63/923,342); autonomous video registration (63/934,369); multimedia semantic equivalence (63/946,066). Invited to IPHatch North America 2026.
 
 ### Selected AI projects
 - **[Aesthetic Detector, BEAUTY (Android)](https://github.com/LeventCeliksan/aesthetic-detector)**: CLIP ViT-B/16 fine-tuned on 1,000+ portraits, ONNX on-device inference, Kotlin.
