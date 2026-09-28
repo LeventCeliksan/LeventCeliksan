@@ -1,9 +1,9 @@
 # Levent Çeliksan
-**Senior AI & Software Engineer** · Technical Founder of [Sealify](https://sealify.io) · Agentic AI · Computer Vision · AI Systems · Backend
+**Technical Founder & Senior Principal AI Engineer — [Sealify, Inc.](https://sealify.io)**
 
 Istanbul, Türkiye · Open to remote work · Open to relocating to the U.S.
 
-**[Download my CV (PDF)](./Levent_Celiksan_CV.pdf)** · [LinkedIn](https://www.linkedin.com/in/levent-celiksan) · leventceliksan@gmail.com
+[LinkedIn](https://www.linkedin.com/in/levent-celiksan) · leventceliksan@gmail.com
 
 ---
 
