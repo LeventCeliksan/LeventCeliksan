@@ -36,7 +36,7 @@ Six U.S. provisional patent applications (USPTO, Nov–Dec 2025, Patent Pending)
 - **AI Advertising Agency Automation**: 7 agents coordinated by a manager agent; a single LLM gateway in Python using FastAPI and Pydantic with Gemini model tiers, local Ollama fallback, and OpenRouter; deterministic checks plus vision-model review for quality control.
 
 ### Open-source tools (tested, installable)
-Standalone, from-scratch tools that demonstrate the ideas behind my work, each with a test suite and a one-line install. They contain no Sealify or client code.
+Most of my production work, including Sealify and client systems, lives in private codebases. In September 2026 I published standalone versions of tools I had built over the years: each has a test suite and a one-line install, and none contains Sealify or client code.
 
 **Agentic AI & LLMs**
 - **[local-dev-crew](https://github.com/LeventCeliksan/local-dev-crew)**: four CrewAI agents on a local Ollama model plan, write and syntax-check small Python projects inside a sandboxed folder.
