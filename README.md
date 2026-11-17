@@ -14,16 +14,27 @@ Inventor on six U.S. provisional patent applications in AI-driven content protec
 Specialties: custom computer vision algorithms on open-source models, agentic AI with local LLMs, and self-hosted AI infrastructure.
 
 ### Sealify, Inc. · Technical Founder & Senior Principal AI Engineer (Nov 2023 – Present)
-- **Product:** Launched in June 2026 as a multilingual (EN/TR/AR) SaaS platform with ~100 early users: Google sign-in, subscription plans (free to $200/month) with crypto payments, a user dashboard, and an admin panel with scheduled DMCA scans and user-approved takedown notices.
-- **Measured results:** 3,000+ test runs; 200,000+ candidate images scanned and 10,000+ verified matches identified across 5,000+ domains at ~98% precision in manual review; a single video test found 1,050+ matches across 80+ domains; 10,000+ media items (450+ GB) archived automatically.
-- **Reverse image/video search:** Designed a two-stage reverse search: multi-engine retrieval (Google Lens, Google Reverse Image, Yandex, Bing) with automatic failover, then local verification. Finds public copies across the web in a median of 2.5 minutes, including resized, recolored, restyled, or audio-altered versions.
-- **Matching engine:** Designed a custom multi-signal matching algorithm (color distribution, dominant palette, background, lighting, pHash, EfficientNet-B7 embeddings) gated by InsightFace/ArcFace face verification; calibrating its weights and thresholds raised matching accuracy from ~60% to ~97%. Runs on parallel workers in a queue-based, multi-instance architecture.
-- **Self-hosted KYC:** Designed a multi-stage identity verification pipeline: custom template-based document recognition, blink-based liveness check, and face matching with open-source models, saving ~$1 per verification vs. paid providers. Correctly verified 20/20 users in a pilot test.
-- **Novelty check & Bitcoin timestamping:** Audio-first novelty check before registration; approved content is anchored to Bitcoin via OpenTimestamps as a fingerprint manifest (SHA-256 + pHash of 27 frames × 12 crop/rotation variants). 1,600+ registrations anchored on mainnet, with independently verifiable timestamp proofs.
-- **Autonomous monitoring:** Workers check users' connected Instagram, TikTok, and YouTube channels every 15 minutes; a piracy-site monitor feeds new titles into the detection pipeline; a LangGraph agent with local LLMs investigates suspected piracy sites and writes evidence-based reports.
-- **Deepfake detection & NCII discovery:** Prototyped a hybrid detector for AI-generated images and videos (custom image-analysis signals plus voting across Hugging Face classifiers); built a victim-protection feature on top of the reverse search and face-verification pipeline, shipped in paid plans.
-- **Infrastructure & cost:** Production on self-hosted hardware behind Cloudflare; bootstrapped and fully remote, with no office or paid LLM APIs: ~$300/year in recurring service costs.
-- Demo: https://www.youtube.com/watch?v=LIoTl1nJU5c · Intro: https://www.youtube.com/watch?v=Bh7kB-UIJhs
+
+- **Product:** Launched a multilingual (EN/TR/AR) SaaS platform in June 2026, with approximately 100 registered early users during testing. Built the complete product experience, including Google sign-in, subscription management, crypto payments, user dashboards, and administrative tools for automated content monitoring and user-approved takedown workflows.
+
+- **Measured results:** Conducted 3,000+ test runs; evaluated 200,000+ candidate images and identified 10,000+ verified matches across 5,000+ domains, achieving approximately 98% precision in manual review. A single video test identified 1,050+ matches across 80+ domains. Automatically archived 10,000+ media items totaling 450+ GB.
+
+- **AI-powered content protection:** Designed and developed an automated content discovery and verification system that identifies potentially unauthorized copies of protected media across public online sources. Achieved a median detection time of 2.5 minutes and supports the identification of significantly modified media, including resized, cropped, recolored, and altered video content.
+
+- **Media intelligence engine:** Developed a custom media verification and matching engine. Improved internal matching accuracy from approximately 60% to 97% through extensive testing, evaluation, and calibration. Designed the system to process large volumes of media efficiently.
+
+- **Self-hosted identity verification:** Designed and implemented an in-house identity verification solution, reducing estimated costs by approximately $1 per verification compared with commercial providers. Successfully verified 20 out of 20 users in a pilot test.
+
+- **Digital ownership & verification:** Developed a content registration and originality verification system with independently verifiable Bitcoin mainnet timestamp proofs. Successfully registered and anchored 1,600+ records on Bitcoin mainnet.
+
+- **Automated monitoring & reporting:** Built autonomous monitoring capabilities for connected social media accounts and selected online sources. Developed AI-assisted investigation and evidence-based reporting workflows to support copyright enforcement and content protection.
+
+- **Deepfake protection & NCII discovery:** Prototyped AI-generated image and video detection capabilities. Developed a victim-protection feature to help identify potentially non-consensual intimate imagery (NCII), included in paid subscription tiers.
+
+- **Infrastructure & operations:** Bootstrapped and operated a cost-efficient production environment behind Cloudflare, with approximately $300/year in recurring service costs at the current scale. Built and maintained the platform independently, without external funding or a dedicated engineering team.
+
+- **Demo:** https://www.youtube.com/watch?v=LIoTl1nJU5c  
+- **Introduction:** https://www.youtube.com/watch?v=Bh7kB-UIJhs
 
 ### Writing
 - **[How I find edited copies of images across the web without crawling it](https://leventceliksan.github.io/copy-detection/)** (Sep 2026): public search indexes as the first stage of copy detection, every match verified locally, with a real 761 → 643 test run.
