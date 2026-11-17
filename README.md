@@ -54,12 +54,5 @@ Most of my production work, including Sealify and client systems, lives in priva
 - **[lsb-watermark](https://github.com/LeventCeliksan/lsb-watermark)**: invisible LSB watermark IDs for images, with a checksum and folder/web search for marked copies.
 - **[mrz-check](https://github.com/LeventCeliksan/mrz-check)**: offline ICAO 9303 passport/ID MRZ parser and check-digit validator (KYC).
 
-### Earlier experience
-- **Senior Software Engineer — BUBU (Kopuzlar Group)**, Türkiye (2018–2023): Set technical direction and led 2 developers; built Python APIs, e-commerce backends, and LLM/RAG integrations (2023); ran production infrastructure with Docker, CI/CD, monitoring, and backups.
-- **Software Engineer — Artworks Lab AB**, Stockholm, Sweden (Remote) (2015–2018): Boutique e-commerce agency: led backend development and built Django/DRF e-commerce systems, using Elasticsearch, Redis, and AWS to support search, caching, and high-traffic campaigns.
-- **Software Engineer — Yellow Pages / DataWorks**, United States (Remote) (2012–2015): U.S. local search and digital marketing company: developed business-listing, mapping/geocoding, and caller-ID services, including REST APIs and backend systems using PHP/Laravel, MySQL, and AWS.
-- **Software Engineer — Jolly Tur**, Istanbul, Türkiye (2008–2011): Major Turkish travel company: developed PHP/MySQL booking and e-commerce backends, SOAP/XML supplier integrations, and supported Linux/Windows server infrastructure.
-- **Junior Software Engineer — REKLAMARKA**, Türkiye (2006–2008): Digital agency: developed corporate websites, PHP/MySQL backends, admin panels, and e-commerce integrations for client projects.
-
 ### Tech
 Python · FastAPI · PyTorch · ONNX Runtime · LangGraph · LangChain · RAG · Ollama · OpenCV · InsightFace · Kotlin · Node.js · PostgreSQL · MySQL · Redis · Docker · Kubernetes · AWS · GCP · Azure
